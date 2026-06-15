@@ -1,7 +1,7 @@
 const API_BASE = window.__API_BASE__ || (
   location.hostname === 'localhost' || location.hostname === '127.0.0.1'
     ? 'http://localhost:8081/api'
-    : 'https://vehicle-rental-api.onrender.com/api' // 👈 replace with your Render URL after backend deploys
+    : 'https://YOUR_RENDER_URL.onrender.com/api' // 🔁 After backend deploys, replace YOUR_RENDER_URL with your Render service URL
 );
 
 function stripOrigin(url) {
